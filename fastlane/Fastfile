@@ -1,14 +1,14 @@
 lane :test do
-  update_version(
+  set_version(
     plist: "path/to/Info.plist",
     version: "1.0.0",
     build_version: 1234
   )
-  update_version(
+  set_version(
     plist: "path/to/Info.plist",
     version: "1.0.0"
   )
-  update_version(
+  set_version(
     plist: "path/to/Info.plist",
     build_version: 1234
   )
