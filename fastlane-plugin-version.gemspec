@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.author        = "Jason Nam"
   spec.email         = "contact@jasonnam.com"
 
-  spec.summary       = "Update version"
+  spec.summary       = "Set version"
   spec.homepage      = "https://github.com/jasonnam/fastlane-plugin-version"
   spec.license       = "MIT"
 

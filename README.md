@@ -14,7 +14,7 @@ fastlane add_plugin version
 
 ## About fastlane-plugin-version
 
-Update version.
+Set version.
 
 ## Example
 
@@ -22,16 +22,16 @@ Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plu
 
 ```ruby
 lane :test do
-  update_version(
+  set_version(
     plist: "path/to/Info.plist",
     version: "1.0.0",
     build_version: 1234
   )
-  update_version(
+  set_version(
     plist: "path/to/Info.plist",
     version: "1.0.0"
   )
-  update_version(
+  set_version(
     plist: "path/to/Info.plist",
     build_version: 1234
   )

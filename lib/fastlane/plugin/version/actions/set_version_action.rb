@@ -2,7 +2,7 @@ require "fastlane/action"
 
 module Fastlane
   module Actions
-    class UpdateVersionAction < Action
+    class SetVersionAction < Action
       def self.run(params)
         plist = params[:plist]
         version = params[:version]
@@ -25,7 +25,7 @@ module Fastlane
       end
 
       def self.description
-        "Update version"
+        "Set version"
       end
 
       def self.authors
