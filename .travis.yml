@@ -2,6 +2,9 @@ language: ruby
 deploy:
   provider: rubygems
   gem: fastlane-plugin-version
-  api_key: $RUBYGEMS_API_KEY
+  api_key: "$RUBYGEMS_API_KEY"
   on:
     branch: master
+env:
+  global:
+    secure: jvTwnXHJdH6vIc0QyJW1Q+LewDNbEvbtE26HLTynSpv0unVgHCYrxTUgXx61vF9EjnlHB8znaeqAOBIEoa8b5pzD0gqJEx/xb5lIHOrOar5wGkVUKYWu0u81qHbsh0J+er361OEt/aU8Ao6779z5hg/7G1YUrEPI67QpXGldmMxwsLY0txDCfqrQME/Dcn5IRoe2FxRrEoKNUDpR0QKfuBNpPWFHGAdxqoRg8Aw+CO70bTwxUFLrdxutCVUNBlySxjbfxCpZhGsir+QXR2wku3/ilqGdM3OMDPmzWMRdtXMmGzv4VQCxpxAWRBEDef3xoXllINuldheHUKhtzHoxKgvZwc7UI3LfiLWIgM/5KkBjzOVYz0ByaMivQkJAEes9k44dtaLIujFjKlz62Zd7c6GG2WMZBfz9Kj6Z7yyzow5Yoszaz5TAmON9QiaS2BbvitGCRiLIi4sgs+KWIp92uI9MUMx7pPhwFxhPhQ+nTuTKAFGH7SJQ7vKGia7evsTJRiQr5B+8jh5oleDvV1VFipFcQgwakjbFlFjhHEMg64FuOB6P1mA159DfKfrzfBdI83mfyemcoJLQgH1DreJlR/ueofJM7JDdw9vIKA+NvJ5IL1aO9yF5VdT7zo/TqElhCS+KVUHmjfll3x3mjL/9LU5fdjK2fq8WKrInSwTw0Rk=

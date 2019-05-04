@@ -47,7 +47,7 @@ module Fastlane
                               short_option: "-b",
                                description: "Build version (CFBundleVersion)",
                                   optional: true,
-                                      type: Integer)
+                                      type: String)
         ]
       end
 
